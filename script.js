@@ -94,7 +94,7 @@ const locations = [{
 	text: "You are in the town square. Where do you want to go?"
 }, {
 	name: "store",
-	"button text": ["Buy 10 health (10 gold)", "Buy a dagger (30 gold)", "Go back to town square"],
+	"button text": ["Buy 10 health (10)", "Buy a dagger (30)", "Go back to town square"],
 	"button functions": [buyHealth, buyWeapon, goTown],
 	text: "Welcome to the store. Here, you can find all you need in this realm."
 }, {
@@ -116,7 +116,7 @@ const locations = [{
 	name: "lose",
 	"button text": ["REPLAY?", "REPLAY?", "REPLAY?"],
 	"button functions": [restart, restart, restart],
-	text: "You die. ☠️"
+	text: "You are DEAD ☠️"
 },
 	{
 		name: "win",
